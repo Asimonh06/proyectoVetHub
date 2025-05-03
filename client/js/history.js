@@ -4,7 +4,7 @@ const $tableBody = document.getElementById("cart-table").querySelector("tbody");
 let cart = JSON.parse(localStorage.getItem("cart")) || []
 let userId = JSON.parse(localStorage.getItem("userID"))
 
-const HISTORY_URL = "http://localhost:4000/api/carts/";
+const HISTORY_URL = "https://proyectovethub-production.up.railway.app/api/carts/";
 
 const getHistory = async () => {
     const response = await fetch(HISTORY_URL + userId);

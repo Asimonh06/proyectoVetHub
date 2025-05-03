@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "http://localhost:4000/api/carts"; /* http://backend:4000/api/carts => docker   */
+const CHECKOUT_URL = "https://proyectovethub-production.up.railway.app/api/carts"; /* http://backend:4000/api/carts => docker   */
 
 const $cartCount = document.getElementById("cart-counter");
 const $cartTableBody = document
