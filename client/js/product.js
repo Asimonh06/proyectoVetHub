@@ -1,6 +1,6 @@
 import { onCarts } from "./cart.js";
 
-const API_URL = `${process.env.LINK}/api/products`
+const API_URL = "https://proyectovethub-production.up.railway.app/api/products";
 
 /* DOM iD */
 const $container = document.getElementById("product-container");
