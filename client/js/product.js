@@ -1,6 +1,6 @@
 import { onCarts } from "./cart.js";
 
-const API_URL = "http://localhost:4000/api/products"; /* http://backend:4000/api/products => docker */
+const API_URL = "https://proyectovethub-production.up.railway.app/api/products"; /* http://backend:4000/api/products => docker */
 
 /* DOM iD */
 const $container = document.getElementById("product-container");
